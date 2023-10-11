@@ -26,7 +26,17 @@ data("Animals2")
   b. Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
   
 ```{r}
+x<-mammals
+print('mammals')
+dim(x)
+head(x)
+tail(x)
 
+x<-Animals2
+print('Animals2')
+dim(x)
+head(x)
+tail(x)
 ```
   
   
